@@ -1,7 +1,9 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
-
 import cardImage from "../assets/cardImage.jpg"
+
+import 'semantic-ui-less/semantic.less'
+
 
 export const CardExampleCard = ({ char }) => (
     <Card>
