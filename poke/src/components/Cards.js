@@ -12,7 +12,7 @@ export const CardExampleCard = ({ char }) => (
             <h2>poke Name: {char.name}</h2>
         </div>
         <div className="url">
-            <p>Birth Year: {char.url}</p>
+            <p>More Info: <a href={char.url}> here</a></p>
         </div>
 
     </Card>
